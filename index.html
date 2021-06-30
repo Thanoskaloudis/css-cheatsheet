@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+  </head>
+  <body>
+    <h1>CSS selectors and specificity</h1>
+    <h2>Selectors</h2>
+    <table>
+      <thead>
+        <th>Selector</th>
+        <th>Example</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">.class</span></td>
+          <td>.intro</td>
+          <td>Selects all elements with class="intro"</td>
+        </tr>
+        <tr>
+          <td><span class="code">#id</span></td>
+          <td>#firstname</td>
+          <td>Selects the element with id="firstname"</td>
+        </tr>
+        <tr>
+          <td><span class="code">element</span></td>
+          <td>p</td>
+          <td>Selects all paraghraph (p) elements</td>
+        </tr>
+        <tr>
+          <td><span class="code">*</span></td>
+          <td>*</td>
+          <td>	Selects all elements</td>
+        </tr>
+        <tr>
+          <td><span class="code">[attribute]</span></td>
+          <td>[target]</td>
+          <td>Selects all elements with a target attribute</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Specificity Hierarchy</h2>
+    <table>
+      <thead>
+        <th>Categories</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+            <td><span class="code">Inline styles</span></td> 
+            <td> An inline style is attached directly to the element to be styled.</td>
+          </tr>
+        <tr>
+          <td><span class="code">IDs </span></td>
+          <td>An ID is a unique identifier for the page elements.</td>
+        </tr>
+        <tr>
+            <td><span class="code">Classes</span></td>
+            <td>This category includes .classes, [attributes] and pseudo-classes.</td>
+          </tr>
+          <tr>
+            <td><span class="code">Elements </span></td>
+            <td>This category includes element names and pseudo-elements.</td>
+          </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
